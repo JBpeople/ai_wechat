@@ -4,9 +4,10 @@ import queue
 from robot import get_response
 
 _SENDER = [
-    "wxid_a1ud4j5yi1sb22",  # 老婆婆
-    "yck13540292813",  # 自己
+    "wxid_a1ud4j5yi1sb22",
 ]
+
+
 def main():
     os.path.exists("logs") or os.makedirs("logs")
     wcf = Wcf()

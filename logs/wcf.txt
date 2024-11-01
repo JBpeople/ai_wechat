@@ -1007,3 +1007,9 @@
 
 [2024-11-01 16:36:51.869] [error] [WCF] [rpc_server.cpp::488::PushMessage] msgSock-nng_send: Timed out
 [2024-11-01 16:36:51.869] [debug] [WCF] [rpc_server.cpp::490::PushMessage] Send data length 8123
+[2024-11-01 16:41:44.681] [debug] [WCF] [rpc_server.cpp::479::PushMessage] Push msg: @WHR 请问下stage2训练时qwen2 0.5B的权重初始化是随机的还是从hf上加载进来的？但是我看hidden size不是匹配的
+[2024-11-01 16:41:46.691] [error] [WCF] [rpc_server.cpp::488::PushMessage] msgSock-nng_send: Timed out
+[2024-11-01 16:41:46.691] [debug] [WCF] [rpc_server.cpp::490::PushMessage] Send data length 665
+[2024-11-01 16:42:29.855] [debug] [WCF] [rpc_server.cpp::479::PushMessage] Push msg: 初始化的，2和1.5改了hidden size了吗，我用的1.5
+[2024-11-01 16:42:31.869] [error] [WCF] [rpc_server.cpp::488::PushMessage] msgSock-nng_send: Timed out
+[2024-11-01 16:42:31.869] [debug] [WCF] [rpc_server.cpp::490::PushMessage] Send data length 535
